@@ -9,6 +9,7 @@ PHP. Desarrollo de una API Rest de contactos con los siguientes end points. Mét
 - DELETE /contacto/{id} Borrar un contacto.
 
 Sustituir el virtualhost por el que vayas a usar en la API.
-Para probar el cliente realizado en React, seguir las intrucciones que se encuentran en el README de la carpeta React para levantar el proyecto
+Se incluye la base de datos para probarlo.
+Para probar el cliente realizado en React, seguir las intrucciones que se encuentran en el README de la carpeta React para levantar el proyecto.
 
 Cualquier duda, contáctame!
