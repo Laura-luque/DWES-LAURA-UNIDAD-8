@@ -33,7 +33,8 @@ function EditarContacto({ id }) {
         event.preventDefault();
         try {
             await axios.put(`http://contactos.local/contactos/${id}`, { nombre, telefono, email});
-            // Lógica adicional después de agregar el contacto, como redirigir a la lista de contactos
+            window.location.href = '/';
+
         } catch (error) {
             console.error('Error al agregar el contacto:', error);
         }

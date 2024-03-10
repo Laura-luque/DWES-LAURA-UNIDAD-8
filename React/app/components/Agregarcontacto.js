@@ -12,6 +12,8 @@ function AgregarContacto() {
         event.preventDefault();
         try {
             await axios.post('http://contactos.local/contactos/', { nombre, telefono, email });
+            window.location.href = '/';
+
         } catch (error) {
             console.error('Error al agregar el contacto:', error);
         }

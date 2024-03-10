@@ -31,7 +31,8 @@ function BorrarContacto({ id }) {
         event.preventDefault();
         try {
             await axios.delete(`http://contactos.local/contactos/${id}`);
-            // Lógica adicional después de agregar el contacto, como redirigir a la lista de contactos
+            window.location.href = '/';
+
         } catch (error) {
             console.error('Error al borrar el contacto:', error);
         }
